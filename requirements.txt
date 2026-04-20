@@ -1,0 +1,16 @@
+# Runtime Python dependencies for genome-eval.
+#
+# Tested on Python 3.13 on Windows 11 (Temurin JDK 21 bundled for Java-backed
+# tools; see README.md for the one-time external-tool bootstrap).
+#
+# Version pins below reflect the environment the project is currently known
+# to work in. Upper bounds are conservative — raise them as needed after
+# testing.
+
+pandas>=2.0,<4
+pyarrow>=15,<24       # pandas parquet I/O; imputed datasets are parquet
+requests>=2.28,<3     # HTTP downloads in a handful of bootstrap scripts
+
+# Y-chromosome haplogroup caller. Not on PyPI; fetched from GitHub by pip.
+# Non-commercial-use license — OK for personal research.
+yhaplo @ git+https://github.com/23andMe/yhaplo.git@v2.1.17

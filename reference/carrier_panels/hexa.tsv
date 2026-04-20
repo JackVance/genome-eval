@@ -1,0 +1,7 @@
+gene	rsid	hgvs_c	hgvs_p	chrom	pos_b37	ref	alt	probe_type	condition	notes
+HEXA	rs387906309	c.1274_1277dupTATC	p.Y427Ifs	15	72638892	C	CGATA	iprobe	Tay-Sachs disease	AJ founder ~80% of AJ carriers; 4bp insertion — indel, needs probe
+HEXA	rs76173076	c.1421+1G>C		15	72638159	C	G	rsid	Tay-Sachs disease	IVS12+1G>C splice; SNP-tractable
+HEXA	rs121907954	c.805G>A	p.G269S	15	72640178	C	T	rsid	Tay-Sachs disease	adult/late-onset; REF/ALT on forward strand (gene on minus strand)
+HEXA	rs28941770	c.533G>A	p.R178H	15	72641156	C	T	rsid	Tay-Sachs disease	"B1 variant"; verify
+HEXA	rs121907972	c.508C>T	p.R170W	15	72641181	G	A	rsid	Tay-Sachs disease	SNP-tractable
+HEXA	rs121907955	c.1073+1G>A		15	72638787	C	T	rsid	Tay-Sachs disease	Celtic/Cajun founder

@@ -1,0 +1,7 @@
+gene	rsid	hgvs_c	hgvs_p	chrom	pos_b37	ref	alt	probe_type	condition	notes
+GJB2	rs80338939	c.35delG	p.G12Vfs	13	20763686	CC	C	iprobe	nonsyndromic hearing loss (DFNB1)	most common; indel — needs probe/imputation
+GJB2	rs80338940	c.167delT	p.L56Rfs	13	20763554	AA	A	iprobe	nonsyndromic hearing loss (DFNB1)	AJ founder; indel
+GJB2	rs104894396	c.71G>A	p.W24X	13	20763650	C	T	rsid	nonsyndromic hearing loss (DFNB1)	Indian/Pakistani founder; SNP-tractable
+GJB2	rs111033196	c.109G>A	p.V37I	13	20763612	C	T	rsid	nonsyndromic hearing loss (DFNB1)	mild/hypomorphic; SNP-tractable
+GJB2	rs104894398	c.139G>T	p.E47X	13	20763582	C	A	rsid	nonsyndromic hearing loss (DFNB1)	SNP-tractable
+GJB2	rs72561723	c.101T>C	p.M34T	13	20763620	A	G	rsid	nonsyndromic hearing loss (DFNB1)	hypomorphic

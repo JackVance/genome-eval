@@ -1,0 +1,23 @@
+gene	rsid	hgvs_c	hgvs_p	chrom	pos_b37	ref	alt	probe_type	condition	notes
+CFTR	rs113993960	c.1521_1523delCTT	p.F508del	7	117199646	CTT	.	iprobe	cystic fibrosis	23andMe encodes at probe i3000001; most common CF mutation
+CFTR	rs113993959	c.1624G>T	p.G542X	7	117199762	G	T	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs80282562	c.3909C>G	p.N1303K	7	117251723	C	G	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs77010898	c.3846G>A	p.W1282X	7	117243879	G	A	rsid	cystic fibrosis	AJ founder; SNP-tractable
+CFTR	rs75527207	c.1652G>A	p.G551D	7	117199644	G	A	rsid	cystic fibrosis	SNP-tractable; ivacaftor-responsive
+CFTR	rs78655421	c.350G>A	p.R117H	7	117188799	G	A	rsid	cystic fibrosis	poly-T in cis (intron 8) modifies penetrance; poly-T not on array
+CFTR	rs75039782	c.3718-2477C>T		7	117232266	C	T	rsid	cystic fibrosis	"3849+10kbC>T" deep-intronic; verify pos
+CFTR	rs80224560	c.2657+5G>A		7	117227793	G	A	rsid	cystic fibrosis	"2789+5G>A" splice; verify
+CFTR	rs121908769	c.254G>A	p.G85E	7	117171094	G	A	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs121909005	c.1000C>T	p.R334W	7	117188877	C	T	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs77646904	c.1040G>A	p.R347H	7	117188917	G	A	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs77932196	c.1040G>C	p.R347P	7	117188917	G	C	rsid	cystic fibrosis	tri-allelic with R347H
+CFTR	rs193922525	c.3454G>C	p.D1152H	7	117250572	G	C	rsid	cystic fibrosis	verify
+CFTR	rs75961395	c.3484C>T	p.R1162X	7	117250602	C	T	rsid	cystic fibrosis	SNP-tractable
+CFTR	rs78769542	c.1585-1G>A		7	117199108	G	A	rsid	cystic fibrosis	"1717-1G>A" splice
+CFTR	rs74597325	c.489+1G>T		7	117176748	G	T	rsid	cystic fibrosis	"621+1G>T"; verify
+CFTR	rs74571530	c.948delT	p.F316Lfs	7	117180154	AT	A	iprobe	cystic fibrosis	indel, not rsID-tractable
+CFTR	rs121908745	c.2052delA	p.K684Sfs	7	117227834	CA	C	iprobe	cystic fibrosis	"2184delA" indel
+CFTR	rs397508269	c.2988+1G>A		7	117230407	G	A	rsid	cystic fibrosis	"3120+1G>A" splice
+CFTR	rs76713772	c.3302T>A	p.M1101K	7	117243622	T	A	rsid	cystic fibrosis	AJ-enriched; verify
+CFTR	rs74767530	c.442delA	p.I148Lfs	7	117176601	TA	T	iprobe	cystic fibrosis	"574delA" indel
+CFTR	rs121908755	c.3764_3765insA	p.Y1255X	7	117243797	A	AA	iprobe	cystic fibrosis	indel

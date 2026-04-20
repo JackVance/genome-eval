@@ -1,0 +1,10 @@
+gene	rsid	hgvs_c	hgvs_p	chrom	pos_b37	ref	alt	probe_type	condition	notes
+HBB	rs334	c.20A>T	p.E6V	11	5248232	T	A	rsid	sickle cell disease	HbS; 23andMe v5 covers
+HBB	rs33930165	c.19G>A	p.E6K	11	5248233	C	T	rsid	HbC disease	SNP-tractable
+HBB	rs33950507	c.79G>A	p.E26K	11	5248191	C	T	rsid	HbE / β-thalassemia	SE-Asian
+HBB	rs33915217	c.92+6T>C		11	5248158	A	G	rsid	β-thalassemia	IVS-I-6 Mediterranean
+HBB	rs35004220	c.92+1G>A		11	5248163	C	T	rsid	β0-thalassemia	IVS-I-1
+HBB	rs33971440	c.93-21G>A		11	5248031	C	T	rsid	β+-thalassemia	IVS-I-110; verify
+HBB	rs11549407	c.118C>T	p.Q40X	11	5248133	G	A	rsid	β0-thalassemia	codon 39 CAG>TAG Mediterranean
+HBB	rs33986703	c.316-106C>G		11	5247071	G	C	rsid	β+-thalassemia	IVS-II-745
+HBB	rs63750783	c.315+1G>A		11	5247805	C	T	rsid	β0-thalassemia	IVS-II-1

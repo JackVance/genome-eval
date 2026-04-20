@@ -1,0 +1,50 @@
+MIT License
+
+Copyright (c) 2026 JackVance
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+Note on third-party runtime dependencies
+================================================================================
+
+This project does NOT redistribute any of the following tools. The bootstrap
+scripts under `scripts/` download them at runtime to the user's local machine.
+When you use those tools via this project, you are bound by their own
+licenses, not this MIT License. The project author makes no warranty about
+compatibility between your use case and the upstream license terms — read
+them directly if it matters for your situation.
+
+- yhaplo (https://github.com/23andMe/yhaplo) — non-commercial academic research
+  use only. Bundles the ISOGG 2016 Y-chromosome tree.
+- Beagle 5.4 (https://faculty.washington.edu/browning/beagle/beagle.html) —
+  distributed under GNU General Public License v3 (GPL-3).
+- HaploGrep3 (https://github.com/genepi/haplogrep3) — MIT License. Bundles
+  PhyloTree 17.2.
+- Temurin JDK 21 (https://adoptium.net/) — GPLv2 with Classpath Exception.
+
+Public reference data downloaded by this project (1000 Genomes Project,
+PGS Catalog, NCBI rCRS, PhyloTree, ISOGG) is in the public domain or under
+permissive re-use licenses from the respective data consortia. See their
+respective websites for details.
+
+Curated data files shipped with this project (under `reference/carrier_panels/`
+and `reference/curated_snps.tsv`) are original compilations distilled from
+public sources (ClinVar, ClinGen, CFTR2.org, ACMG guidelines, PGS Catalog).
+These TSVs are licensed under the same MIT terms as the project code.

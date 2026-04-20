@@ -1,0 +1,5 @@
+gene	rsid	hgvs_c	hgvs_p	chrom	pos_b37	ref	alt	probe_type	condition	notes
+PAH	rs5030858	c.1222C>T	p.R408W	12	103246547	G	A	rsid	phenylketonuria	most common Euro; SNP-tractable
+PAH	rs5030855	c.1066-11G>A		12	103234294	C	T	rsid	phenylketonuria	IVS10 splice
+PAH	rs62508588	c.782G>A	p.R261Q	12	103249456	C	T	rsid	phenylketonuria	verify
+PAH	rs62516095	c.1315+1G>A		12	103237568	C	T	rsid	phenylketonuria	IVS12 splice; AJ-enriched

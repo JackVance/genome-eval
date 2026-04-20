@@ -1,0 +1,97 @@
+# =============================================================================
+# Personal data — NEVER commit. These contain or derive from individual genomes.
+# =============================================================================
+# Raw provider files (the original 23andMe / AncestryDNA / etc. downloads)
+raw-source-genomes/
+
+# Standardized chip parquet + any per-subject files at this level
+standardized-genomes/*.parquet
+standardized-genomes/imputed/
+
+# Per-subject haplogroup outputs (MT VCFs, yhaplo genos + per-sample results)
+standardized-genomes/haplogroups/
+
+# Per-subject metadata (names, sex, self-reported phenotypes, etc.)
+profiles/*.json
+
+# Append-only ledger — contains subject-specific findings and inferences
+ledger/*.jsonl
+ledger/*.jsonl.bak.*
+
+# Generated reports
+reports/
+
+# Per-subject session notes (see local/README.md)
+local/
+
+# Per-subject empirical PRS calibrations (full-panel <PGS>.json files are
+# public-content-safe; subject-observed <PGS>.<subject>.json ones are not).
+# Using a two-dot glob that matches <PGS>.<subject>.json but not <PGS>.json.
+reference/population_cache/prs_empirical/*.*.json
+
+# Session-level user memory (lives under ~/.claude/ but guard anyway)
+.claude/memory/
+.claude/scheduled_tasks.lock
+
+# =============================================================================
+# Large re-fetchable infrastructure — instructions in README.md § "One-time setup"
+# =============================================================================
+# 1000 Genomes imputation reference panels (~16 GB; scripts/imputation_download.py)
+reference/imputation/1kg_ref_b37/
+
+# 1000 Genomes EBI release VCFs (~25 GB; scripts/download_1kg_canonical.py)
+reference/imputation/1kg_ebi_release/
+
+# Portable JDK (~200 MB; scripts/install_portable_jdk.py)
+reference/imputation/jdk/
+
+# Genetic maps (~25 MB; scripts/imputation_download.py --maps)
+reference/imputation/genetic_maps/
+
+# Beagle + conform-gt JARs (~500 KB vendor binaries; scripts/imputation_download.py)
+reference/imputation/beagle/*.jar
+
+# HaploGrep3 install (~50 MB vendor binary; scripts/haplogrep_download.py)
+reference/haplogroups/mtdna/haplogrep3/
+
+# Canonical 1000G EUR AF table (~440 MB; scripts/extract_eur_afs.py, ~20 min)
+reference/population_cache/1kg_eur_afs.parquet
+reference/population_cache/1kg_eur_afs.chr*.parquet
+reference/population_cache/1kg_eur_afs.json
+
+# PGS Catalog weight files (each ~20 MB; scripts/prs_download.py <PGS_id>)
+reference/prs_weights/*.txt.gz
+
+# =============================================================================
+# Build / runtime artifacts
+# =============================================================================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# =============================================================================
+# OS / IDE junk
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# =============================================================================
+# Intentionally tracked (keep commented as documentation)
+# =============================================================================
+# reference/curated_snps.tsv                          — curated SNP table, shareable
+# reference/carrier_panels/*.tsv                      — curated ACMG panel variants
+# reference/haplogroups/mtdna/rCRS.fasta              — public mtDNA reference sequence
+# reference/population_cache/prs_empirical/<PGS>.json — full-panel 1000G EUR calibrations,
+#                                                       content-safe (per-sample scores are
+#                                                       public 1000G data, not a subject's)
+# reference/population_cache/prs_empirical/README.md  — documents subject-observed pattern
+reference/haplogroups/mtdna/rCRS.fasta
